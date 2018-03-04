@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div id="container">
+    <h1>Items Database</h1>
+	  <input type="text" id="textInput" placeholder="Add...">
+	  <i class="fas fa-plus-circle fa-lg" id="button" style="color: #6161e5" onclick="addItem()"></i>
+    <section id="board">
+		<ul id="board-list">
+		</ul>
+	</section>
+	<input type="checkbox" id="checkBox" name="hide"onclick="hideItems()">
+	<label for="checkBox">Hide</label>
+  </div>
+</body>

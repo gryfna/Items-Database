@@ -1,8 +1,8 @@
 function addItem() {
     var input = document.getElementById("textInput").value,
-	    boardList = document.getElementById("board-list"),
-		boardLi = document.createElement("li"),
-		boardText = document.createTextNode(input);
+	boardList = document.getElementById("board-list"),
+        boardLi = document.createElement("li"),
+	boardText = document.createTextNode(input);
 	
     boardLi.onclick = removeItem; 
     boardLi.appendChild(boardText);
